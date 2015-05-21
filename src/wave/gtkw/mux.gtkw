@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Tue May 19 00:54:32 2015
+[*]
+[dumpfile] "/home/collin/hack/src/wave/mux.vcd"
+[dumpfile_mtime] "Tue May 19 00:46:45 2015"
+[dumpfile_size] 498
+[savefile] "/home/collin/hack/src/wave/mux.gtkw"
+[timestart] 0
+[size] 1920 1200
+[pos] -1 -1
+*-19.992342 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 250
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 351
+@800201
+-in
+@29
+a
+b
+sel
+@1000201
+-in
+@28
+cout
+[pattern_trace] 1
+[pattern_trace] 0

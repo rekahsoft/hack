@@ -1,0 +1,49 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Tue May 19 01:35:58 2015
+[*]
+[dumpfile] "/home/collin/hack/src/wave/alu.vcd"
+[dumpfile_mtime] "Tue May 19 01:04:56 2015"
+[dumpfile_size] 32724
+[savefile] "/home/collin/hack/src/wave/alu.gtkw"
+[timestart] 0
+[size] 1920 1200
+[pos] -1 -1
+*-22.222769 730000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 250
+[signals_width] 156
+[sst_expanded] 1
+[sst_vpaned_height] 351
+@800200
+-in
+@22
+x[15:0]
+y[15:0]
+@29
+[color] 7
+zx
+[color] 7
+nx
+[color] 7
+zy
+[color] 7
+ny
+[color] 7
+no
+[color] 7
+f
+@1000200
+-in
+@800200
+-out
+@22
+cout[15:0]
+@28
+[color] 5
+zr
+[color] 5
+ng
+@1000200
+-out
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Wed May 20 06:26:27 2015
+[*]
+[dumpfile] "/home/collin/hack/src/wave/dmux8way.vcd"
+[dumpfile_mtime] "Wed May 20 06:25:26 2015"
+[dumpfile_size] 3246
+[savefile] "/home/collin/hack/src/wave/dmux8way.gtkw"
+[timestart] 0
+[size] 1920 1200
+[pos] -1 -1
+*-21.007469 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 250
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 351
+@800201
+-in
+@29
+cin
+sel[2:0]
+@1000201
+-in
+@800200
+-out
+@28
+a
+b
+c
+d
+e
+f
+g
+h
+@1000200
+-out
+[pattern_trace] 1
+[pattern_trace] 0

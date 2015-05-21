@@ -1,0 +1,88 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Thu May 21 00:28:13 2015
+[*]
+[dumpfile] "/home/collin/hack/src/wave/ram8.vcd"
+[dumpfile_mtime] "Wed May 20 08:41:48 2015"
+[dumpfile_size] 508704
+[savefile] "/home/collin/hack/src/wave/ram8.gtkw"
+[timestart] 0
+[size] 1920 1200
+[pos] -1 -1
+*-24.508835 36500000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] ram8_0.
+[treeopen] ram8_0.reg(0).
+[treeopen] ram8_0.reg(1).
+[treeopen] ram8_0.reg(2).
+[treeopen] ram8_0.reg(3).
+[treeopen] ram8_0.reg(4).
+[treeopen] ram8_0.reg(5).
+[treeopen] ram8_0.reg(6).
+[treeopen] ram8_0.reg(7).
+[sst_width] 250
+[signals_width] 171
+[sst_expanded] 1
+[sst_vpaned_height] 396
+@28
+ram8_0.clk
+@800200
+-in
+@22
+ram8_0.d[15:0]
+@28
+ram8_0.load
+ram8_0.address[2:0]
+@1000200
+-in
+@800201
+-out
+@23
+ram8_0.cout[15:0]
+@1000201
+-out
+@800200
+-registers
+@200
+-reg000
+@22
+[color] 2
+ram8_0.reg(0).dregister_i.cout[15:0]
+@200
+-reg001
+@22
+[color] 4
+ram8_0.reg(1).dregister_i.cout[15:0]
+@200
+-reg010
+@22
+[color] 6
+ram8_0.reg(2).dregister_i.cout[15:0]
+@200
+-reg011
+@22
+[color] 1
+ram8_0.reg(3).dregister_i.cout[15:0]
+@200
+-reg 100
+@22
+[color] 3
+ram8_0.reg(4).dregister_i.cout[15:0]
+@200
+-reg101
+@22
+[color] 5
+ram8_0.reg(5).dregister_i.cout[15:0]
+@200
+-reg110
+@22
+[color] 7
+ram8_0.reg(6).dregister_i.cout[15:0]
+@200
+-reg111
+@22
+[color] 2
+ram8_0.reg(7).dregister_i.cout[15:0]
+@1000200
+-registers
+[pattern_trace] 1
+[pattern_trace] 0

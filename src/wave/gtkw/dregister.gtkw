@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Wed May 20 08:56:20 2015
+[*]
+[dumpfile] "/home/collin/hack/src/wave/dregister.vcd"
+[dumpfile_mtime] "Wed May 20 08:43:27 2015"
+[dumpfile_size] 67014
+[savefile] "/home/collin/hack/src/wave/dregister.gtkw"
+[timestart] 0
+[size] 1920 1200
+[pos] -1 -1
+*-24.288025 41000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 250
+[signals_width] 167
+[sst_expanded] 1
+[sst_vpaned_height] 351
+@28
+clk
+@800200
+-in
+@23
+d[15:0]
+@28
+load
+@1000200
+-in
+@22
+cout[15:0]
+[pattern_trace] 1
+[pattern_trace] 0
