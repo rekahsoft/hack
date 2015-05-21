@@ -1,2 +1,4 @@
-*~
-src/work-obj93.cf
+*
+!.gitignore
+!*.vhdl
+
