@@ -1,3 +1,22 @@
+-- (C) Copyright Collin J. Doering 2015
+--
+-- This program is free software: you can redistribute it and/or modify
+-- it under the terms of the GNU General Public License as published by
+-- the Free Software Foundation, either version 3 of the License, or
+-- (at your option) any later version.
+--
+-- This program is distributed in the hope that it will be useful,
+-- but WITHOUT ANY WARRANTY; without even the implied warranty of
+-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-- GNU General Public License for more details.
+--
+-- You should have received a copy of the GNU General Public License
+-- along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-- File: add16_tb.vhdl
+-- Author: Collin J. Doering <collin.doering@rekahsoft.ca>
+-- Date: May 22, 2015
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 
@@ -8,10 +27,14 @@ end add16_tb;
 architecture add16_tb_arch of add16_tb is
    --  Declaration of the component that will be instantiated.
    component add16
-     port (a, b : std_logic_vector(15 downto 0); cout : out std_logic_vector(15 downto 0));
+     port (a, b : in  std_logic_vector(15 downto 0);
+           cout : out std_logic_vector(15 downto 0));
    end component;
+
    --  Specifies which entity is bound with the component.
    for add16_0: add16 use entity work.add16;
+
+   -- Signals
    signal a, b, cout : std_logic_vector(15 downto 0);
 begin
    --  Component instantiation.

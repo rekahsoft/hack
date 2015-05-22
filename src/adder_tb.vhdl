@@ -1,3 +1,22 @@
+-- (C) Copyright Collin J. Doering 2015
+--
+-- This program is free software: you can redistribute it and/or modify
+-- it under the terms of the GNU General Public License as published by
+-- the Free Software Foundation, either version 3 of the License, or
+-- (at your option) any later version.
+--
+-- This program is distributed in the hope that it will be useful,
+-- but WITHOUT ANY WARRANTY; without even the implied warranty of
+-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-- GNU General Public License for more details.
+--
+-- You should have received a copy of the GNU General Public License
+-- along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-- File: adder_tb.vhdl
+-- Author: Collin J. Doering <collin.doering@rekahsoft.ca>
+-- Date: May 22, 2015
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 
@@ -8,10 +27,14 @@ end adder_tb;
 architecture adder_tb_arch of adder_tb is
    --  Declaration of the component that will be instantiated.
    component adder
-     port (a, b, ci : in std_logic; s, co : out std_logic);
+     port (a, b, ci : in  std_logic;
+           s, co    : out std_logic);
    end component;
+
    --  Specifies which entity is bound with the component.
    for adder_0: adder use entity work.adder;
+
+   -- Signals
    signal a, b, ci, s, co : std_logic;
 begin
    --  Component instantiation.
