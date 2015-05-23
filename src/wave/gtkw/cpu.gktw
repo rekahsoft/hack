@@ -1,0 +1,139 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Fri May 22 07:51:58 2015
+[*]
+[dumpfile] "/home/collin/hack/src/wave/vcd/cpu.vcd"
+[dumpfile_mtime] "Fri May 22 07:35:14 2015"
+[dumpfile_size] 250804
+[savefile] "/home/collin/hack/src/wave/gtkw/cpu.gktw.gtkw"
+[timestart] 0
+[size] 1920 1200
+[pos] -1 -1
+*-23.750259 2000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_0.
+[treeopen] cpu_0.cpu_alu.
+[sst_width] 250
+[signals_width] 308
+[sst_expanded] 1
+[sst_vpaned_height] 351
+@28
+clk
+@800200
+-in
+@28
+cpu_0.instruction[15:0]
+@c00022
+instruction[15:0]
+@28
+(0)instruction[15:0]
+(1)instruction[15:0]
+(2)instruction[15:0]
+(3)instruction[15:0]
+(4)instruction[15:0]
+(5)instruction[15:0]
+(6)instruction[15:0]
+(7)instruction[15:0]
+(8)instruction[15:0]
+(9)instruction[15:0]
+(10)instruction[15:0]
+(11)instruction[15:0]
+(12)instruction[15:0]
+(13)instruction[15:0]
+(14)instruction[15:0]
+(15)instruction[15:0]
+@1401202
+-group_end
+@c00022
+inm[15:0]
+@28
+(0)inm[15:0]
+(1)inm[15:0]
+(2)inm[15:0]
+(3)inm[15:0]
+(4)inm[15:0]
+(5)inm[15:0]
+(6)inm[15:0]
+(7)inm[15:0]
+(8)inm[15:0]
+(9)inm[15:0]
+(10)inm[15:0]
+(11)inm[15:0]
+(12)inm[15:0]
+(13)inm[15:0]
+(14)inm[15:0]
+(15)inm[15:0]
+@1401200
+-group_end
+@28
+[color] 7
+reset
+@1000200
+-in
+@800200
+-out
+@22
+outm[15:0]
+@28
+[color] 6
+writem
+@22
+addressm[14:0]
+pcout[14:0]
+@1000200
+-out
+@800200
+-alu
+-in
+@22
+[color] 3
+cpu_0.cpu_alu.x[15:0]
+[color] 3
+cpu_0.cpu_alu.y[15:0]
+@28
+[color] 7
+cpu_0.cpu_alu.zx
+[color] 7
+cpu_0.cpu_alu.nx
+[color] 7
+cpu_0.cpu_alu.zy
+[color] 7
+cpu_0.cpu_alu.ny
+[color] 7
+cpu_0.cpu_alu.f
+[color] 7
+cpu_0.cpu_alu.no
+@1000200
+-in
+@800200
+-out
+@28
+[color] 6
+cpu_0.cpu_alu.zr
+[color] 6
+cpu_0.cpu_alu.ng
+@22
+[color] 3
+cpu_0.cpu_alu.cout[15:0]
+@1000200
+-out
+-alu
+@800200
+-registers
+@200
+-regA
+@28
+cpu_0.rega.load
+@22
+[color] 1
+cpu_0.rega.cout[15:0]
+@200
+-regD
+@29
+cpu_0.regd.load
+@22
+[color] 1
+cpu_0.regd.cout[15:0]
+@1000200
+-registers
+[pattern_trace] 1
+[pattern_trace] 0

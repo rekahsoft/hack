@@ -13,7 +13,7 @@
 -- You should have received a copy of the GNU General Public License
 -- along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
--- File: DFF_tb.vhdl
+-- File: dff_tb.vhdl
 -- Author: Collin J. Doering <collin.doering@rekahsoft.ca>
 -- Date: May 22, 2015
 
@@ -21,12 +21,12 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 
 --  A testbench has no ports.
-entity DFF_tb is
-end DFF_tb;
+entity dff_tb is
+end dff_tb;
 
-architecture DFF_tb_arch of DFF_tb is
+architecture dff_tb_arch of dff_tb is
    --  Declaration of the component that will be instantiated.
-   component DFF
+   component dff
      port (d, clk : in  std_logic;
            cout   : out std_logic);
    end component;
@@ -38,21 +38,21 @@ architecture DFF_tb_arch of DFF_tb is
    end component;
 
    --  Specifies which entity is bound with the component.
-   for DFF_0: DFF use entity work.DFF;
+   for dff_0: dff use entity work.dff;
 
    -- Signals
    signal d, finish, clk, cout : std_logic;
 begin
   --  Component instantiation.
   OSC_CLK: Clock port map (finish, clk);
-  DFF_0: DFF port map (d, clk, cout);
+  dff_0: dff port map (d, clk, cout);
 
    --  This process does the real job.
    process
       type pattern_type is record
-         --  The inputs of the DFF.
+         --  The inputs of the dff.
          d : std_logic;
-         --  The output of the DFF.
+         --  The output of the dff.
          cout : std_logic;
       end record;
       --  The patterns to apply.
@@ -83,4 +83,4 @@ begin
       --  Wait forever; this will finish the simulation.
       wait;
    end process;
-end DFF_tb_arch;
+end dff_tb_arch;

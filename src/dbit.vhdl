@@ -30,6 +30,7 @@ architecture dbit_arch of dbit is
     port (a, b, sel : in  std_logic;
           cout      : out std_logic);
   end component;
+
   component dff
     port (d, clk : in  std_logic;
           cout   : out std_logic);
@@ -37,7 +38,7 @@ architecture dbit_arch of dbit is
 
   signal dffOut, muxOut : std_logic;
 begin
-  MUX_0: mux port map (dffOut, d, load, muxOut);
-  DFF_0: dff port map (muxOut, clk, dffOut);
+  mux_0: mux port map (dffOut, d, load, muxOut);
+  dff_0: dff port map (muxOut, clk, dffOut);
   cout <= dffOut;
 end dbit_arch;

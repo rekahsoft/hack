@@ -13,19 +13,19 @@
 -- You should have received a copy of the GNU General Public License
 -- along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
--- File: DFF.vhdl
+-- File: dff.vhdl
 -- Author: Collin J. Doering <collin.doering@rekahsoft.ca>
 -- Date: May 22, 2015
 
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity DFF is
+entity dff is
   port (d, clk : in  std_logic;
         cout   : out std_logic);
-end DFF;
+end dff;
 
-architecture DFF_arch of DFF is
+architecture dff_arch of dff is
   signal coutFst : std_logic := '0';
 begin
   cout <= coutFst;
@@ -35,4 +35,4 @@ begin
       coutFst <= d;
     end if;
   end process dff;
-end DFF_arch;
+end dff_arch;
