@@ -83,7 +83,7 @@ begin
   writeM <= instr and dest(0);
   addressM <= regAOut(14 downto 0);
   
-  cpu_alu: alu port map (regDOut, regAOut, aluInstr(5), aluInstr(4), aluInstr(3), aluInstr(2), aluInstr(1), aluInstr(0), aluOut, zr, ng);
+  cpu_alu: alu port map (regDOut, memToALU, aluInstr(5), aluInstr(4), aluInstr(3), aluInstr(2), aluInstr(1), aluInstr(0), aluOut, zr, ng);
   outM <= aluOut;
   
   doJump <= '0'                     when (jump = "000") else
