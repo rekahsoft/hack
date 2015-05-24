@@ -86,14 +86,14 @@ begin
   cpu_alu: alu port map (regDOut, memToALU, aluInstr(5), aluInstr(4), aluInstr(3), aluInstr(2), aluInstr(1), aluInstr(0), aluOut, zr, ng);
   outM <= aluOut;
   
-  doJump <= '0'                     when (jump = "000") else
-            ((not zr) and (not ng)) when (jump = "001") else
-            (zr and (not ng))       when (jump = "010") else
-            (zr or (not ng))        when (jump = "011") else
-            ((not zr) and ng)       when (jump = "100") else
-            (not zr)                when (jump = "101") else
-            (zr or ng)              when (jump = "110") else
-            '1'                     when (jump = "111");
+  doJump <= '0'                               when (jump = "000") else
+            ((not zr) and (not ng) and instr) when (jump = "001") else
+            (zr       and (not ng) and instr) when (jump = "010") else
+            ((zr      or (not ng)) and instr) when (jump = "011") else
+            ((not zr) and ng       and instr) when (jump = "100") else
+            ((not zr)              and instr) when (jump = "101") else
+            ((zr or ng)            and instr) when (jump = "110") else
+                                       instr  when (jump = "111");
   doJumpNot <= not doJump;
   
   pc_0: pc port map (regAOut, doJump, doJumpNot, reset, clk, pctmp);
