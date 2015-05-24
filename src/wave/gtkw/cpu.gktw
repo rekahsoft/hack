@@ -1,22 +1,22 @@
 [*]
 [*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
-[*] Fri May 22 07:51:58 2015
+[*] Sun May 24 05:02:10 2015
 [*]
 [dumpfile] "/home/collin/hack/src/wave/vcd/cpu.vcd"
-[dumpfile_mtime] "Fri May 22 07:35:14 2015"
-[dumpfile_size] 250804
-[savefile] "/home/collin/hack/src/wave/gtkw/cpu.gktw.gtkw"
+[dumpfile_mtime] "Sun May 24 04:27:44 2015"
+[dumpfile_size] 230159
+[savefile] "/home/collin/hack/src/wave/gtkw/cpu.gktw"
 [timestart] 0
 [size] 1920 1200
 [pos] -1 -1
-*-23.750259 2000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-21.743635 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] cpu_0.
 [treeopen] cpu_0.cpu_alu.
 [sst_width] 250
-[signals_width] 308
+[signals_width] 302
 [sst_expanded] 1
 [sst_vpaned_height] 351
-@28
+@29
 clk
 @800200
 -in
@@ -41,7 +41,7 @@ instruction[15:0]
 (13)instruction[15:0]
 (14)instruction[15:0]
 (15)instruction[15:0]
-@1401202
+@1401200
 -group_end
 @c00022
 inm[15:0]
@@ -128,7 +128,7 @@ cpu_0.rega.load
 cpu_0.rega.cout[15:0]
 @200
 -regD
-@29
+@28
 cpu_0.regd.load
 @22
 [color] 1
