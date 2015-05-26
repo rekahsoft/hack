@@ -3,7 +3,7 @@
 ## Features
 
 * Follows a similar structure to the implementation describe by the nand to tetris book
-* 
+* Uses open-source tools wherever possible
 
 ## Tools
 
