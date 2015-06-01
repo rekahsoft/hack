@@ -16,20 +16,22 @@
 -- File: clock.vhdl
 -- Author: Collin J. Doering <collin.doering@rekahsoft.ca>
 -- Date: May 22, 2015
+-- Description: A clock entity for use for simulation only!
 
 library IEEE;
 use IEEE.std_logic_1164.all;
 
 entity clock is
+  generic (freq : real := 1000000000.0);
   port (finish : in  std_logic;
         cout   : out std_logic);
 end clock;
 
 architecture clock_arch of clock is
   signal clk: std_logic := '0';
+  constant period : time := 1 sec / freq;
+  constant half_period : time := period / 2;
 begin
-  clk <= '0' when finish = '1' else
-         '1' after 0.5 ns when clk = '0' else
-         '0' after 0.5 ns when clk = '1';
+  clk <= not clk after half_period when finish /= '1' else '0';
   cout <= clk;
 end clock_arch;

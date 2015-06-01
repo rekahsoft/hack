@@ -27,6 +27,7 @@ end clock_tb;
 architecture clock_tb_arch of clock_tb is
    --  Declaration of the component that will be instantiated.
    component clock
+     generic (freq : real := 1000000000.0);
      port (finish : in  std_logic;
            cout   : out std_logic);
    end component;
@@ -35,10 +36,12 @@ architecture clock_tb_arch of clock_tb is
    for clock_0: clock use entity work.clock;
 
    -- Signals
-   signal finish, cout : std_logic;
+   signal finish, finish_1, cout, cout_1 : std_logic;
 begin
   --  Component instantiation.
    clock_0: clock port map (finish, cout);
+   clock_1: clock generic map (freq => 1000000.0)
+                  port map (finish_1, cout_1);
 
    --  This process does the real job.
    process
@@ -95,7 +98,10 @@ begin
          ('0', '1'));
          
    begin
-      --  Check each pattern.
+      -- Set 1 MHz clock 'on'
+      finish_1 <= '0';
+
+      --  Check each pattern. Tests whether the finish bit works correctly.
       for i in patterns'range loop
          --  Set the inputs.
          finish <= patterns(i).finish;
@@ -105,8 +111,14 @@ begin
            report "bad clock" severity error;
          wait for 0.4 ns;
       end loop;
-      -- End the clock
+
+      -- Wait for an additional 1 ms
+      wait for 1 ms;
+
+      -- End the clocks
       finish <= '1';
+      finish_1 <= '1';
+
       assert false report "end of test" severity note;
       --  Wait forever; this will finish the simulation.
       wait;
