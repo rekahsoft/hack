@@ -1,0 +1,610 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Fri Jun  5 21:34:20 2015
+[*]
+[dumpfile] "/home/collin/.code/my-projects/public/hack/src/wave/vcd/computer-memory-fill.fst"
+[dumpfile_mtime] "Tue Jun  2 05:34:23 2015"
+[dumpfile_size] 241501171
+[savefile] "/home/collin/.code/my-projects/public/hack/src/wave/gtkw/computer-memory-fill.gtkw"
+[timestart] 0
+[size] 1920 1200
+[pos] -1 -1
+*-28.662239 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] memory.ram(0).
+[treeopen] memory.ram(0).ram4k_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(2).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(2).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(2).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(2).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(2).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(3).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(3).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(3).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(3).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(3).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(4).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(4).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(4).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(4).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(4).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(1).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(2).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(3).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(3).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(3).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(1).ram512_i.ram(3).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(1).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(2).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(3).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(3).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(3).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(2).ram512_i.ram(3).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(1).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(2).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(3).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(3).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(3).ram512_i.ram(3).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).dregister_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(1).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(2).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(3).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(3).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(3).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(3).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(4).ram512_i.ram(3).ram64_i.ram(0).ram8_i.reg(0).dregister_i.reg(0).
+[treeopen] memory.ram(0).ram4k_i.ram(5).
+[treeopen] memory.ram(0).ram4k_i.ram(5).ram512_i.
+[treeopen] memory.ram(0).ram4k_i.ram(5).ram512_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(1).
+[treeopen] memory.ram(1).ram4k_i.
+[treeopen] memory.ram(1).ram4k_i.ram(0).
+[treeopen] memory.ram(1).ram4k_i.ram(0).ram512_i.
+[treeopen] memory.ram(1).ram4k_i.ram(0).ram512_i.ram(0).
+[treeopen] memory.ram(1).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(1).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(1).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(1).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(1).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(1).ram4k_i.ram(2).
+[treeopen] memory.ram(1).ram4k_i.ram(2).ram512_i.
+[treeopen] memory.ram(1).ram4k_i.ram(2).ram512_i.ram(0).
+[treeopen] memory.ram(1).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(1).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(1).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(1).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(1).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(2).
+[treeopen] memory.ram(2).ram4k_i.
+[treeopen] memory.ram(2).ram4k_i.ram(0).
+[treeopen] memory.ram(2).ram4k_i.ram(0).ram512_i.
+[treeopen] memory.ram(2).ram4k_i.ram(0).ram512_i.ram(0).
+[treeopen] memory.ram(2).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(2).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(2).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(2).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(2).ram4k_i.ram(2).
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(0).
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(1).
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(3).
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(3).ram8_i.
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(3).ram8_i.reg(0).
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(1).
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(2).
+[treeopen] memory.ram(2).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.
+[treeopen] memory.ram(3).
+[treeopen] memory.ram(3).ram4k_i.
+[treeopen] memory.ram(3).ram4k_i.ram(0).
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(3).ram4k_i.ram(2).
+[treeopen] memory.ram(3).ram4k_i.ram(2).ram512_i.
+[treeopen] memory.ram(3).ram4k_i.ram(2).ram512_i.ram(0).
+[treeopen] memory.ram(3).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(3).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(3).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(3).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(3).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(4).
+[treeopen] memory.ram(4).ram4k_i.
+[treeopen] memory.ram(4).ram4k_i.ram(1).
+[treeopen] memory.ram(4).ram4k_i.ram(1).ram512_i.
+[treeopen] memory.ram(4).ram4k_i.ram(1).ram512_i.ram(7).
+[treeopen] memory.ram(4).ram4k_i.ram(1).ram512_i.ram(7).ram64_i.
+[treeopen] memory.ram(4).ram4k_i.ram(1).ram512_i.ram(7).ram64_i.ram(7).
+[treeopen] memory.ram(4).ram4k_i.ram(1).ram512_i.ram(7).ram64_i.ram(7).ram8_i.
+[treeopen] memory.ram(4).ram4k_i.ram(1).ram512_i.ram(7).ram64_i.ram(7).ram8_i.reg(0).
+[treeopen] memory.ram(4).ram4k_i.ram(1).ram512_i.ram(7).ram64_i.ram(7).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(4).ram4k_i.ram(2).
+[treeopen] memory.ram(4).ram4k_i.ram(2).ram512_i.
+[treeopen] memory.ram(4).ram4k_i.ram(2).ram512_i.ram(0).
+[treeopen] memory.ram(4).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(4).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(4).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(4).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(4).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(5).
+[treeopen] memory.ram(5).ram4k_i.
+[treeopen] memory.ram(5).ram4k_i.ram(2).
+[treeopen] memory.ram(5).ram4k_i.ram(2).ram512_i.
+[treeopen] memory.ram(5).ram4k_i.ram(2).ram512_i.ram(0).
+[treeopen] memory.ram(5).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(5).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(5).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(5).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(5).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(6).
+[treeopen] memory.ram(6).ram4k_i.
+[treeopen] memory.ram(6).ram4k_i.ram(0).
+[treeopen] memory.ram(6).ram4k_i.ram(0).ram512_i.
+[treeopen] memory.ram(6).ram4k_i.ram(0).ram512_i.ram(0).
+[treeopen] memory.ram(6).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(6).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(6).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(6).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(6).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(1).
+[treeopen] memory.ram(6).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(1).dregister_i.
+[treeopen] memory.ram(6).ram4k_i.ram(2).
+[treeopen] memory.ram(6).ram4k_i.ram(2).ram512_i.
+[treeopen] memory.ram(6).ram4k_i.ram(2).ram512_i.ram(0).
+[treeopen] memory.ram(6).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(6).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(6).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(6).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(6).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.
+[treeopen] memory.ram(7).
+[treeopen] memory.ram(7).ram4k_i.
+[treeopen] memory.ram(7).ram4k_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).ram8_i.
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(1).ram8_i.reg(0).dregister_i.reg(0).dbit_i.
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(1).
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(7).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(7).ram4k_i.ram(2).
+[treeopen] memory.ram(7).ram4k_i.ram(2).ram512_i.
+[treeopen] memory.ram(7).ram4k_i.ram(2).ram512_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(7).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(7).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(7).ram4k_i.ram(3).
+[treeopen] memory.ram(7).ram4k_i.ram(3).ram512_i.
+[treeopen] memory.ram(7).ram4k_i.ram(3).ram512_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(7).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(7).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(7).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.reg(0).
+[treeopen] memory.ram(7).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.reg(0).dbit_i.
+[treeopen] memory.ram(7).ram4k_i.ram(4).
+[treeopen] memory.ram(7).ram4k_i.ram(4).ram512_i.
+[treeopen] memory.ram(7).ram4k_i.ram(4).ram512_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(7).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(7).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(7).ram4k_i.ram(5).
+[treeopen] memory.ram(7).ram4k_i.ram(5).ram512_i.
+[treeopen] memory.ram(7).ram4k_i.ram(5).ram512_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(7).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(7).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(7).ram4k_i.ram(6).
+[treeopen] memory.ram(7).ram4k_i.ram(6).ram512_i.
+[treeopen] memory.ram(7).ram4k_i.ram(6).ram512_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(7).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(7).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] memory.ram(7).ram4k_i.ram(7).
+[treeopen] memory.ram(7).ram4k_i.ram(7).ram512_i.
+[treeopen] memory.ram(7).ram4k_i.ram(7).ram512_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(7).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(7).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(7).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] osc_clk.
+[treeopen] the_cpu.cpu_alu.
+[treeopen] the_cpu.regd.
+[sst_width] 382
+[signals_width] 251
+[sst_expanded] 1
+[sst_vpaned_height] 787
+@29
+osc_clk.clk
+@800200
+-cpu
+-in
+@28
+the_cpu.instruction[15:0]
+@22
+the_cpu.instruction[15:0]
+the_cpu.inm[15:0]
+@28
+[color] 7
+the_cpu.reset
+@1000200
+-in
+@800200
+-out
+@22
+the_cpu.addressm[14:0]
+the_cpu.outm[15:0]
+the_cpu.pcout[14:0]
+@28
+the_cpu.writem
+@1000200
+-out
+@800200
+-Registers
+@200
+-Register A
+@28
+the_cpu.rega.load
+@22
+[color] 1
+the_cpu.rega.cout[15:0]
+@200
+-Register D
+@28
+the_cpu.regd.load
+@22
+[color] 1
+the_cpu.regd.cout[15:0]
+@1000200
+-Registers
+@800200
+-alu
+-in
+@22
+[color] 3
+the_cpu.cpu_alu.x[15:0]
+[color] 3
+the_cpu.cpu_alu.y[15:0]
+@28
+[color] 7
+the_cpu.cpu_alu.zx
+[color] 7
+the_cpu.cpu_alu.nx
+[color] 7
+the_cpu.cpu_alu.zy
+[color] 7
+the_cpu.cpu_alu.ny
+[color] 7
+the_cpu.cpu_alu.f
+[color] 7
+the_cpu.cpu_alu.no
+@1000200
+-in
+@800200
+-out
+@28
+[color] 6
+the_cpu.cpu_alu.zr
+[color] 6
+the_cpu.cpu_alu.ng
+@22
+[color] 3
+the_cpu.cpu_alu.cout[15:0]
+@1000200
+-out
+-alu
+-cpu
+@800200
+-RAM
+@22
+memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(1).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(2).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(3).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(4).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(5).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(6).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(7).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(0).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(1).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(2).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(3).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(4).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(5).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(5).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(5).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(5).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(5).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(5).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(5).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(5).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(6).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(6).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(6).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(6).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(6).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(6).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(6).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(6).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(7).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(7).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(7).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(7).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(7).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(7).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(7).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(7).ram512_i.ram(1).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(0).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(1).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(2).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(3).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(4).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(5).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(5).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(5).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(5).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(5).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(5).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(5).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(5).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(6).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(6).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(6).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(6).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(6).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(6).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(6).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(6).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(7).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(1).ram4k_i.ram(7).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(2).ram4k_i.ram(7).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(3).ram4k_i.ram(7).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(4).ram4k_i.ram(7).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(5).ram4k_i.ram(7).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(6).ram4k_i.ram(7).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(7).ram4k_i.ram(7).ram512_i.ram(2).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+memory.ram(0).ram4k_i.ram(0).ram512_i.ram(3).ram64_i.ram(0).ram8_i.reg(0).dregister_i.cout[15:0]
+@1000200
+-RAM
+[pattern_trace] 1
+[pattern_trace] 0

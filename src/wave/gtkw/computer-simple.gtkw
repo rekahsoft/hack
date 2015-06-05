@@ -1,0 +1,109 @@
+[*]
+[*] GTKWave Analyzer v3.3.64 (w)1999-2014 BSI
+[*] Wed Jun  3 08:25:01 2015
+[*]
+[dumpfile] "/home/collin/.code/my-projects/public/hack/src/wave/vcd/computer-simple.fst"
+[dumpfile_mtime] "Wed Jun  3 08:05:09 2015"
+[dumpfile_size] 13873157
+[savefile] "/home/collin/.code/my-projects/public/hack/src/wave/gtkw/computer-simple.gtkw"
+[timestart] 0
+[size] 1916 1196
+[pos] -1 -1
+*-25.193588 4730000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] memory.ram(0).ram4k_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.
+[treeopen] memory.ram(0).ram4k_i.ram(0).ram512_i.ram(0).ram64_i.ram(0).ram8_i.reg(0).
+[treeopen] the_cpu.
+[treeopen] the_cpu.cpu_alu.
+[treeopen] the_cpu.regd.
+[sst_width] 250
+[signals_width] 305
+[sst_expanded] 1
+[sst_vpaned_height] 349
+@28
+osc_clk.clk
+@800200
+-cpu
+-in
+@28
+the_cpu.instruction[15:0]
+@22
+the_cpu.instruction[15:0]
+the_cpu.inm[15:0]
+@28
+[color] 7
+the_cpu.reset
+@1000200
+-in
+@800200
+-out
+@22
+the_cpu.addressm[14:0]
+the_cpu.outm[15:0]
+the_cpu.pcout[14:0]
+@28
+the_cpu.writem
+@1000200
+-out
+@800201
+-alu
+-in
+@23
+[color] 3
+the_cpu.cpu_alu.x[15:0]
+[color] 3
+the_cpu.cpu_alu.y[15:0]
+@29
+[color] 7
+the_cpu.cpu_alu.zx
+[color] 7
+the_cpu.cpu_alu.nx
+[color] 7
+the_cpu.cpu_alu.zy
+[color] 7
+the_cpu.cpu_alu.ny
+[color] 7
+the_cpu.cpu_alu.f
+[color] 7
+the_cpu.cpu_alu.no
+@1000201
+-in
+@800201
+-out
+@29
+[color] 6
+the_cpu.cpu_alu.zr
+[color] 6
+the_cpu.cpu_alu.ng
+@23
+[color] 3
+the_cpu.cpu_alu.cout[15:0]
+@1000201
+-out
+-alu
+@800200
+-Registers
+@200
+-Register A
+@28
+the_cpu.rega.load
+@22
+[color] 1
+the_cpu.rega.cout[15:0]
+@200
+-Register D
+@28
+the_cpu.regd.load
+@22
+[color] 1
+the_cpu.regd.cout[15:0]
+@1000200
+-Registers
+-cpu
+[pattern_trace] 1
+[pattern_trace] 0

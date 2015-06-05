@@ -44,3 +44,5 @@ ram64_tb
 ram64
 ram8_tb
 ram8
+
+computer_tb
