@@ -1,9 +1,9 @@
 # Hack
 
 * [Introduction](#introduction)
-* [Features](#features)
-* [Tools](#tools)
-* [License](#license)
+  * [Features](#features)
+  * [Tools](#tools)
+  * [License](#license)
 * [Import VHDL Sources](#import-vhdl-sources)
 * [Simulation](#simulation)
    * [Caveats](#simulation-caveats)
@@ -17,12 +17,12 @@
 Implementation of Hack Computer Architecture in VHDL. This implementation seeks to be
 thoroughly verified through simulation using [GHDL][] and eventually implemented on a FPGA.
 
-## Features <a name="features"></a>
+### Features <a name="features"></a>
 
 * Follows a similar structure to the implementation describe by the *Nand to Tetris* book
 * Uses open-source tools wherever possible
 
-## Tools <a name="tools"></a>
+### Tools <a name="tools"></a>
 
 The creation of this software was made possible by the following open source tools and
 libraries, and most notably, *Noam Nisan*, and *Shimon Schocken* who created the *Nand to
@@ -33,7 +33,7 @@ Computer from First Principe's*.
 * [GHDL][], for VHDL compilation/simulation.
 * [GtkWave][], for viewing waveform dumps (vcd, fst, etc..)
 
-## License <a name="license"></a>
+### License <a name="license"></a>
 
 This project is licensed under the [GPLv3][]. Please see the LICENSE file for full details.
 
@@ -42,7 +42,7 @@ This project is licensed under the [GPLv3][]. Please see the LICENSE file for fu
     $ cd src
     $ ghdl -i --workdir=work *.vhdl
 
-All units can then be built by building the top most unit, computer_tb, as follows.
+All units can then be built by building the top most unit, `computer_tb`, as follows.
 
     $ ghdl -m --workdir=work computer_tb.vhdl
 
@@ -83,7 +83,7 @@ Another example, running the default `src/asm/Fib.hack` program:
     $ vcd2fst wave/vcd/computer-fib.vcd wave/vcd/computer-fib.fst
 
 Note that converting the vcd file to an fst file using vcd2fst is sometimes necessary when the
-simulations become large. This mostly is the case with the computer_tb unit.
+simulations become large. This mostly is the case with the `computer_tb` unit.
 
 ### Caveats <a name="simulation-caveats"></a>
 
@@ -95,7 +95,7 @@ commit*) and are read/writeable as you would expect (see the [issues](#issues) s
 information).
 
 The `computer_tb` unit also doesn't allow one to reset the system without explicitly modifying
-the vhdl code of computer_tb. This could be fixed by implementing computer as its own entity
+the vhdl code of `computer_tb`. This could be fixed by implementing computer as its own entity
 with one input (reset) for testing purposes. Then multiple test benches could be written to
 test various aspects of the machine. Better yet, similar to how testing is done in the *Nand to
 Tetris* course, we could have another generic property on the test bench to specify a 'compare
@@ -127,13 +127,13 @@ is modified to so.
 
 ## Issues <a name="issues"></a>
 
-When simulating the computer using the computer_tb unit, the -g command line switch is only
+When simulating the computer using the `computer_tb` unit, the -g command line switch is only
 available in very recent versions of [GHDL][] (later then 2015-03-07; see
 [ticket](http://sourceforge.net/p/ghdl-updates/tickets/37/?limit=25)). Thus to run various
 .hack programs in the simulation, one must edit the source file referenced in
 `src/computer_tb.vhdl`.
 
-When opening a vcd/fst dump of a program run in simulation using computer_tb, two template
+When opening a vcd/fst dump of a program run in simulation using `computer_tb`, two template
 [GtkWave][] save files are provided for convenience. These templates have the signals for the
 clock, cpu, alu, registers A and D, as well as RAM[0] through RAM[100+]. This makes viewing the
 output of a simulation easier, but in recent versions of [GHDL][], its generates different
@@ -174,7 +174,7 @@ and a better use of time would be to implement the design on real hardware.
 
 To run a *Hack Assembly* program in the simulation it must be in its machine language
 representation; that is it needs to be passed through an assembler. One such assembler is the
-one provided with the *Nand to Tetris* course. I have also written another one, name `Asmblr`,
+one provided with the *Nand to Tetris* course. I have also written another one, named `Asmblr`,
 which is faster and more fully featured. For more information see the
 [Asmblr](http://git.rekahsoft.ca/hackasm) repository and its accompanying
 [README](http://git.rekahsoft.ca/hackasm/about).
