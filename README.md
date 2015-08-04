@@ -141,6 +141,9 @@ labels when processing 'for ... generate' statements. To address this issue two 
 save files are provided, `src/wave/gtkw/computer.gtkw` is for the older version of [GtkWave][]
 and `src/wave/gtkw/computer-ghdl-new.gtkw` is for the newer version (later then 2015-03-07).
 
+If you discover a bug or have an issue with this project, please file a bug using
+the [Rekahsoft flyspray powered bug tracker](https://bugs.rekahsoft.ca/index.php?project=7).
+
 ## Road Map <a name="road-map"></a>
 
 Acquire an FPGA so that I can implement this design on real hardware. Currently I've been
